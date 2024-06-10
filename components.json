@@ -1390,6 +1390,14 @@
 			"alias": "sclang",
 			"owner": "RunDevelopment"
 		},
+		"suricata": {
+			"title": "Suricata",
+			"owner": "Security-Onion-Solutions"
+		},
+		"suricata-logic": {
+			"title": "Suricata Logic",
+			"owner": "Security-Onion-Solutions"
+		},
 		"swift": {
 			"title": "Swift",
 			"owner": "chrischares"
@@ -1602,6 +1610,11 @@
 		"yang": {
 			"title": "YANG",
 			"owner": "RunDevelopment"
+		},
+		"yara": {
+			"title": "YARA",
+			"alias": "yara",
+			"owner": "Security-Onion-Solutions"
 		},
 		"zig": {
 			"title": "Zig",
