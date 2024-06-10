@@ -249,6 +249,7 @@
 		"iecst": "Structured Text (IEC 61131-3)",
 		"supercollider": "SuperCollider",
 		"sclang": "SuperCollider",
+		"suricata-logic": "Suricata Logic",
 		"systemd": "Systemd configuration file",
 		"t4-templating": "T4 templating",
 		"t4-cs": "T4 Text Templates (C#)",
@@ -287,7 +288,8 @@
 		"xquery": "XQuery",
 		"yaml": "YAML",
 		"yml": "YAML",
-		"yang": "YANG"
+		"yang": "YANG",
+		"yara": "YARA"
 	}/*]*/;
 
 	/* eslint-enable */

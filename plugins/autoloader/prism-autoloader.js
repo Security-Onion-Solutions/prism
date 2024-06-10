@@ -277,7 +277,8 @@
 		"nb": "wolfram",
 		"wl": "wolfram",
 		"xeoracube": "xeora",
-		"yml": "yaml"
+		"yml": "yaml",
+		"yara": "yara"
 	}/*]*/;
 
 	/* eslint-enable */
