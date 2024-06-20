@@ -5,7 +5,6 @@ Prism.languages['suricata-logic'] = {
 	},
 	'protocol': {
 		pattern: /\b(tcp|udp|icmp|ip|all|any|tcp-pkt|tcp-stream|http[12]?|ftp|tls|smb|dns|dcerpc|dhcp|ssh|smtp|imap|pop3|modbus|dnp3|enip|nfs|ike|krb5|bittorrent-dht|ntp|dhcp|rfb|rdp|snmp|tftp|sip|websocket)\b/,
-		lookbehind: true,
 		alias: 'selector'
 	},
 	'direction': {
