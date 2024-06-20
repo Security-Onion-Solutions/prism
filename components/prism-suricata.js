@@ -1,12 +1,11 @@
 // Resource: https://prismjs.com/extending
 Prism.languages.suricata = {
 	'protocol': {
-		pattern: /(^\w+\s+)(tcp|udp|icmp|ip|all|any|tcp-pkt|tcp-stream|http[12]?|ftp|tls|smb|dns|dcerpc|dhcp|ssh|smtp|imap|pop3|modbus|dnp3|enip|nfs|ike|krb5|bittorrent-dht|ntp|dhcp|rfb|rdp|snmp|tftp|sip|websocket)/,
-		lookbehind: true,
+		pattern: /\b(tcp|udp|icmp|ip|all|any|tcp-pkt|tcp-stream|http[12]?|ftp|tls|smb|dns|dcerpc|dhcp|ssh|smtp|imap|pop3|modbus|dnp3|enip|nfs|ike|krb5|bittorrent-dht|ntp|dhcp|rfb|rdp|snmp|tftp|sip|websocket)\b/,
 		alias: 'selector'
 	},
 	'action': {
-		pattern: /^(alert|pass|drop|reject|rejectsrc|rejectdst|rejectboth)/,
+		pattern: /\b(alert|pass|drop|reject|rejectsrc|rejectdst|rejectboth)\b/,
 		alias: 'namespace'
 	},
 	'direction': {
@@ -39,5 +38,12 @@ Prism.languages.suricata = {
 				alias: 'tag'
 			}
 		}
-	}
+	},
+	'comment': [
+		{
+			pattern: /#.*/,
+			lookbehind: true,
+			greedy: true
+		}
+	],
 };
