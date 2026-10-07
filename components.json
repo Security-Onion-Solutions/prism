@@ -454,6 +454,10 @@
 			"title": "Elm",
 			"owner": "zwilias"
 		},
+		"esql": {
+			"title": "ES|QL",
+			"owner": "Security-Onion-Solutions"
+		},
 		"etlua": {
 			"title": "Embedded Lua templating",
 			"require": ["lua", "markup-templating"],
