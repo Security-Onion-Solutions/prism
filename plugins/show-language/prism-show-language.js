@@ -95,6 +95,7 @@
 		"ebnf": "EBNF",
 		"editorconfig": "EditorConfig",
 		"ejs": "EJS",
+		"esql": "ES|QL",
 		"etlua": "Embedded Lua templating",
 		"erb": "ERB",
 		"excel-formula": "Excel Formula",
